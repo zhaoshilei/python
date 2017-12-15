@@ -1,0 +1,8 @@
+from pip._vendor.distlib.compat import raw_input
+num = int(raw_input("pleas input a num:\n"))
+i =2
+while True:
+    if (i % 2 ==0):
+        print(i+"\t")
+        
+    

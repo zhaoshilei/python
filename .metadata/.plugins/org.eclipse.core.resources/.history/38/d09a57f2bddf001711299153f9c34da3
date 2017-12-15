@@ -1,0 +1,7 @@
+package com.test.rmi;  
+import java.rmi.Remote;  
+import java.rmi.RemoteException;
+  
+public interface IntHelloRmi extends Remote{  
+    public String helloRmi() throws RemoteException;  
+    public String sayHello(String name)throws RemoteException;}

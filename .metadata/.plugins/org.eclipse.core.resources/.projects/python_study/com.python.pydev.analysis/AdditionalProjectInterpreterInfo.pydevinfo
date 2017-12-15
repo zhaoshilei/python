@@ -1,0 +1,25 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\eclipseworkspace\.metadata\.plugins\org.eclipse.core.resources\.projects\python_study\com.python.pydev.analysis\v2_indexcache
+com.zhaoshilei.python.Guess|1513269131178164000|E:\eclipseworkspace\python_study\com\zhaoshilei\python\Guess.py
+com.zhaoshilei.python.__init__|1513268394545058000|E:\eclipseworkspace\python_study\com\zhaoshilei\python\__init__.py
+com.__init__|1513268394536055000|E:\eclipseworkspace\python_study\com\__init__.py
+com.zhaoshilei.__init__|1513268394541039000|E:\eclipseworkspace\python_study\com\zhaoshilei\__init__.py
+com.zhaoshilei.home_work1|1513272043035068000|E:\eclipseworkspace\python_study\com\zhaoshilei\home_work1.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=com.zhaoshilei.python.Guess
+2=com.zhaoshilei.home_work1
+-- END DICTIONARY
+-- START TREE 1
+5
+gue|1|guess_num!11@
+i|1|i!19@
+num|1|num!19@
+tru|1|true_num!11@
+z|1|z!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

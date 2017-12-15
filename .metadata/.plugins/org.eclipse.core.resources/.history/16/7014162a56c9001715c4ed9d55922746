@@ -1,0 +1,22 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		System.out.println(factorial(8));
+	}
+	
+	private static long factorial(int n) 
+	{  
+	    return (n > 1) ? n * factorial(n - 1) : 1;  
+	}  
+	  
+
+
+}

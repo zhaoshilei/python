@@ -1,0 +1,11 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+for num in range(10,20):  # ���� 10 �� 20 ֮�������
+   for i in range(2,num): # �������ӵ���
+      if num%i == 0:      # ȷ����һ������
+         j=num/i          # ����ڶ�������
+         print "%d ���� %d * %d"% (num,i,j)
+         break            # ������ǰѭ��
+   else:                  # ѭ���� else ����
+      print num, '��һ������'

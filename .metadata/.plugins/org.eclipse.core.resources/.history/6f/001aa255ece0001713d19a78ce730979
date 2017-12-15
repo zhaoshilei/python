@@ -1,0 +1,16 @@
+# coding:utf-8
+from pip._vendor.distlib.compat import raw_input
+
+true_num = 88
+
+while True:
+    guess_num = raw_input("\nInput the number:")
+    guess_num = int(guess_num)
+    if guess_num > true_num:
+        print("Sorry,It's higger than the true name")
+    elif guess_num < true_num:
+        print("Sorry,It's lower than the true name")
+    else:
+        print("Amazing,You guessed it!\n")
+        break
+    print("Game will exist:")

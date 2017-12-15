@@ -1,0 +1,18 @@
+from pip._vendor.distlib.compat import raw_input
+num = int(raw_input("pleas input a num:"))
+i =2
+while True:
+    z=1
+    for j in i:
+       if (i%j == 0):
+           z+=1
+    if(z==2):
+        print(str(i), end=" ")       
+    
+
+    i+=1
+    if i>num:
+        break
+    
+    
+    

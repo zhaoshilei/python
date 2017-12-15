@@ -1,0 +1,17 @@
+'''
+Created on 2017Äê12ÔÂ15ÈÕ
+
+@author: zhaoshilei
+'''
+from pip._vendor.distlib.compat import raw_input
+
+true_num = 88
+guess_num = raw_input("\nInput the number:")
+guess_num = int(guess_num)
+if guess_num>true_num:
+    print("Sorry,It's higger than the true name")
+elif guess_num <true_num:
+    print("Sorry,It's lower than the true name")
+else:
+    print("Amazing,You guessed it!\n")
+print("Game will exist:")

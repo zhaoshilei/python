@@ -1,0 +1,15 @@
+package com.test.rmi;  
+import java.rmi.RemoteException;  
+import java.rmi.server.UniCastRemoteObject;  
+  
+pubic class ImpHelloRmi extends UniCastRemoteObject implements IntHelloRmi{  
+    private static final long serialVersionUID=1L;  
+    public ImpHelloRmi() throws RemoteException{super();}  
+    public String helloRmi()throws RemoteException{  
+        return "Hello Rmi";  
+    }  
+      
+    public String sayHello(String name)throws RemoteException{  
+        return "Hello "+name+"!";  
+    }  
+} 

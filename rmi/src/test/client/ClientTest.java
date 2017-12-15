@@ -1,0 +1,25 @@
+package test.client;  
+  
+import java.rmi.NotBoundException;  
+import java.rmi.RemoteException;  
+import java.rmi.registry.LocateRegistry;  
+import java.rmi.registry.Registry;
+
+import com.test.rmi.IMyServer;  
+  
+  
+public class ClientTest {  
+    public static void main(String[] args) {  
+        try {  
+            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1099);  
+            IMyServer server = (IMyServer) registry.lookup("server");  
+            int a = 2, b = 10;  
+            System.err.println(server.add(a, b));  
+            System.err.println(server.mul(a, b));  
+        } catch (RemoteException e) {  
+            e.printStackTrace();  
+        } catch (NotBoundException e) {  
+            e.printStackTrace();  
+        }  
+    }  
+}  
